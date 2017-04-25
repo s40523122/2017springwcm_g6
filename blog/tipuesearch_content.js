@@ -1,1 +1,1 @@
-var tipuesearch = {"pages":[{"url":"./2016fall-ru-he-ba-yuan-duan-zi-liao-la-hui-jin-duan.html","title":"2016Fall 如何把遠端資料拉回近端","text":"2016-10-10_22-28-44 如何將遠端資料拉回近端 from 黃胤瑋 on Vimeo","tags":"教學影片"}]};
+var tipuesearch = {"pages":[{"title":"何謂機械設計","tags":"論述","text":"設計是一種表達，產生內容可去做機密配置 表達方式，口語、文字、2D、理論、實體、軟體。 機：很多元件組成可達成精巧配置 械：控制在一個範圍有固定功能 設：必須明確表達結果之具體規劃 計：經過詳細思慮考量過程 利用虛實整合的機械設計工程師","url":"./he-wei-ji-jie-she-ji.html"}]};
