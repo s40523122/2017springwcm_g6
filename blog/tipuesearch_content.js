@@ -1,1 +1,1 @@
-var tipuesearch = {"pages":[{"url":"./2016fall-ru-he-ba-yuan-duan-zi-liao-la-hui-jin-duan.html","title":"2016Fall 如何把遠端資料拉回近端","text":"2016-10-10_22-28-44 如何將遠端資料拉回近端 from 黃胤瑋 on Vimeo","tags":"教學影片"}]};
+var tipuesearch = {"pages":[{"title":"hello","url":"./hello.html","tags":"教學影片","text":"在開學到期中這段期間 我學到如何用virtual box開啟一個虛擬的主機 這個影片是我學會如何開啟的成果 2017-04-20_23-12-59 from 杜羿蓉 on Vimeo ."},{"title":"2016Fall 如何把遠端資料拉回近端","url":"./2016fall-ru-he-ba-yuan-duan-zi-liao-la-hui-jin-duan.html","tags":"教學影片","text":"2016-10-10_22-28-44 如何將遠端資料拉回近端 from 黃胤瑋 on Vimeo"}]};
