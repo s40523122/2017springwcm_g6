@@ -5,56 +5,84 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-04-25T21:31:59-00:00</lastmod>
+<lastmod>2017-04-26T13:16:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-04-25T21:31:59-00:00</lastmod>
+<lastmod>2017-04-26T13:16:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-04-25T21:31:59-00:00</lastmod>
+<lastmod>2017-04-26T13:16:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-04-25T21:31:59-00:00</lastmod>
+<lastmod>2017-04-26T13:16:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<loc>./fossilbi-ji.html</loc>
+<lastmod>2017-04-14T12:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./jian-li-si-fu-qi-bu-zou.html</loc>
+<lastmod>2017-04-14T12:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./lian-xian-ipv6jiao-xue.html</loc>
+<lastmod>2017-04-14T12:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./zai-ubuntuli-mian-ji-ben-cao-zuo.html</loc>
+<lastmod>2017-04-14T12:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./he-wei-ji-jie-she-ji.html</loc>
-<lastmod>2017-04-25T12:00:00+08:00</lastmod>
+<lastmod>2017-04-07T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/lun-shu.html</loc>
-<lastmod>2017-04-25T12:00:00+08:06</lastmod>
+<lastmod>2017-04-14T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/ji-jie-she-ji.html</loc>
-<lastmod>2017-04-25T12:00:00+08:06</lastmod>
+<lastmod>2017-04-14T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/jiang-yi-xin.html</loc>
-<lastmod>2017-04-25T12:00:00+08:06</lastmod>
+<lastmod>2017-04-14T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>WCM6的小組作業網誌</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-25T12:00:00+08:00</updated><entry><title>何謂機械設計</title><link href="./he-wei-ji-jie-she-ji.html" rel="alternate"></link><published>2017-04-25T12:00:00+08:00</published><updated>2017-04-25T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-04-25:./he-wei-ji-jie-she-ji.html</id><summary type="html">&lt;p&gt;設計是一種表達，產生內容可去做機密配置
+<feed xmlns="http://www.w3.org/2005/Atom"><title>WCM6的小組作業網誌</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-14T12:00:00+08:00</updated><entry><title>fossil筆記</title><link href="./fossilbi-ji.html" rel="alternate"></link><published>2017-04-14T12:00:00+08:00</published><updated>2017-04-14T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-04-14:./fossilbi-ji.html</id><summary type="html">&lt;p&gt;ipconfig/all&lt;/p&gt;
+&lt;p&gt;ping 自己ip&lt;/p&gt;
+&lt;p&gt;ping gateway ip&lt;/p&gt;
+&lt;p&gt;ping 外部ip&lt;/p&gt;
+&lt;p&gt;tracert 區域網路主要網站&lt;/p&gt;
+&lt;p&gt;tracet 廣域網路主要網站&lt;/p&gt;
+&lt;p&gt;喜好設定 全體設定&lt;/p&gt;
+&lt;p&gt;虛擬主機可透過Nat連線&lt;/p&gt;
+&lt;p&gt;僅限虛擬主機內部&lt;/p&gt;
+&lt;p&gt;設定 U04設定值→網路→共用C槽→自動掛載案X&lt;/p&gt;
+&lt;p&gt;xlaunch putty.exe&lt;/p&gt;
+&lt;p&gt;mde→ana2016fall→data→xming→xlauch.exe&lt;/p&gt;
+&lt;p&gt;Host Name 192.168.1.114&lt;/p&gt;
+&lt;p&gt;saved sessions:114&lt;/p&gt;
+&lt;p&gt;ssh→x11→localhost:0&lt;/p&gt;
+&lt;p&gt;fossil clone http://username@192.168.1.68rp.fossil&lt;/p&gt;
+&lt;p&gt;fossil sql-r vcp.fossil&lt;/p&gt;
+&lt;p&gt;select login,pw,capform user&lt;/p&gt;
+&lt;p&gt;update user set pw=0407 where login=user&lt;/p&gt;
+&lt;p&gt;ls-l長形列印 long list&lt;/p&gt;
+&lt;p&gt;fossil clone uri fossil-file&lt;/p&gt;
+&lt;p&gt;fossil open&lt;/p&gt;
+&lt;p&gt;fossil add.&lt;/p&gt;
+&lt;p&gt;foaail commit -m&lt;/p&gt;
+&lt;p&gt;fossil remote-urloff&lt;/p&gt;
+&lt;p&gt;fossil push&lt;/p&gt;</summary><category term="機械設計"></category></entry><entry><title>建立伺服器步驟</title><link href="./jian-li-si-fu-qi-bu-zou.html" rel="alternate"></link><published>2017-04-14T12:00:00+08:00</published><updated>2017-04-14T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-04-14:./jian-li-si-fu-qi-bu-zou.html</id><summary type="html">&lt;p&gt;步驟一if config
+步驟二sudo apt-get install - f
+步驟三sudo dpkg-configure -a
+步驟四sudo apt install nginx&lt;/p&gt;</summary><category term="機械設計"></category></entry><entry><title>連線ipv6教學</title><link href="./lian-xian-ipv6jiao-xue.html" rel="alternate"></link><published>2017-04-14T12:00:00+08:00</published><updated>2017-04-14T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-04-14:./lian-xian-ipv6jiao-xue.html</id><summary type="html">&lt;p&gt;為什麼打mde.tw可連接到網頁?&lt;/p&gt;
+&lt;p&gt;因必須有DNS  &lt;/p&gt;
+&lt;p&gt;github.io才可變成githubpage&lt;/p&gt;
+&lt;p&gt;IPV6 2001:288:6004:17.7&lt;/p&gt;
+&lt;p&gt;學校NDS 2001:288:6004:1::2&lt;/p&gt;
+&lt;p&gt;中華電信 2001:b000:168::1&lt;/p&gt;
+&lt;p&gt;DNS跟donate ips轉換&lt;/p&gt;
+&lt;p&gt;X11 localhost:0&lt;/p&gt;</summary><category term="機械設計"></category></entry><entry><title>在Ubuntu裡面基本操作</title><link href="./zai-ubuntuli-mian-ji-ben-cao-zuo.html" rel="alternate"></link><published>2017-04-14T12:00:00+08:00</published><updated>2017-04-14T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-04-14:./zai-ubuntuli-mian-ji-ben-cao-zuo.html</id><summary type="html">&lt;p&gt;cd 跟目錄&lt;/p&gt;
+&lt;p&gt;pwd 印出現在的工作目錄&lt;/p&gt;
+&lt;p&gt;clear 刷新&lt;/p&gt;
+&lt;p&gt;history 舊指令&lt;/p&gt;
+&lt;p&gt;history&amp;gt;his txt 存成&lt;/p&gt;
+&lt;p&gt;cat his.txt lmore 顯示&lt;/p&gt;
+&lt;p&gt;j往下&lt;/p&gt;
+&lt;p&gt;k往上&lt;/p&gt;
+&lt;p&gt;右L&lt;/p&gt;
+&lt;p&gt;刪除S&lt;/p&gt;</summary><category term="機械設計"></category></entry><entry><title>何謂機械設計</title><link href="./he-wei-ji-jie-she-ji.html" rel="alternate"></link><published>2017-04-07T12:00:00+08:00</published><updated>2017-04-07T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-04-07:./he-wei-ji-jie-she-ji.html</id><summary type="html">&lt;p&gt;設計是一種表達，產生內容可去做機密配置
 表達方式，口語、文字、2D、理論、實體、軟體。
 機：很多元件組成可達成精巧配置&lt;/p&gt;
 &lt;p&gt;械：控制在一個範圍有固定功能&lt;/p&gt;
