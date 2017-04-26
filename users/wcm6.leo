@@ -71,8 +71,21 @@
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
-<v t="leo.20170424231856.1"><vh>@edit 20160921.md</vh></v>
 <v t="leo.20170425224841.1"><vh>@edit 20170425 02.md </vh></v>
+<v t="leo.20170427025841.1"><vh>@edit 2017042501.md</vh></v>
+<v t="leo.20170427025841.2"><vh>@edit 2017042601.md</vh></v>
+<v t="leo.20170427025841.3"><vh>@edit 2017042701.md</vh></v>
+<v t="leo.20170427025841.4"><vh>@edit 2017042801.md</vh></v>
+<v t="leo.20170427025841.5"><vh>@edit 2017042901.md</vh></v>
+<v t="leo.20170427025842.2"><vh>@edit 0.md</vh></v>
+<v t="leo.20170427025842.3"><vh>@edit 04.md</vh></v>
+<v t="leo.20170427025842.4"><vh>@edit 044.md</vh></v>
+<v t="leo.20170427025842.5"><vh>@edit 0444.md</vh></v>
+<v t="leo.20170427030239.1"><vh>@edit 20160407 36.md</vh></v>
+<v t="leo.20170427030239.2"><vh>@edit 201604014 36.md</vh></v>
+<v t="leo.20170427030239.3"><vh>@edit 201604021 36.md</vh></v>
+<v t="leo.20170427030239.4"><vh>@edit 201604022 36.md</vh></v>
+<v t="leo.20170427030239.5"><vh>@edit 201604023 36.md</vh></v>
 </v>
 </v>
 <v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
@@ -1007,12 +1020,9 @@ Diff...
 -     &lt;/script&gt;
 </t>
 <t tx="yen.20161011122601.1"></t>
-<t tx="yen.20161011122932.1">
-&lt;iframe src="https://player.vimeo.com/video/191367588" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-@others
-&lt;p&gt;&lt;a href="https://vimeo.com/191367588"&gt;clone&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-    &lt;/script&gt;
-</t>
+<t tx="yen.20161011122932.1">&lt;/section&gt;
+
+@others</t>
 <t tx="yen.20161011125115.1">&lt;/section&gt;
 
 @others
@@ -1020,159 +1030,26 @@ Diff...
 						
 </t>
 <t tx="yen.20161011143808.1">&lt;/section&gt;
-&lt;section&gt;
-@others
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-</t>
-<t tx="yen.20161011143808.2"></t>
-<t tx="yen.20161011145156.1"># ShareX
 
-@others
-&lt;iframe src="https://player.vimeo.com/video/191363719" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/191363719"&gt;sharex&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-</t>
+@others</t>
+<t tx="yen.20161011143808.2"></t>
+<t tx="yen.20161011145156.1">&lt;/section&gt;
+
+@others</t>
 <t tx="yen.20161011145156.2"></t>
-<t tx="yen.20161016004633.1">&lt;section&gt;
-&lt;section data-markdown&gt;
-@others
-    &lt;script type="text/template"&gt;
-# Git clone 使用
-</t>
+<t tx="yen.20161016004633.1">&lt;/section&gt;
+
+@others</t>
 <t tx="yen.20161016004633.4"></t>
 <t tx="yen.20161016011920.1"></t>
-<t tx="yen.20161016012809.1">    &lt;/script&gt;
-&lt;/section&gt;
+<t tx="yen.20161016012809.1">&lt;/section&gt;
+
 @others
-
-
-						
-&lt;/section&gt;
-&lt;section&gt;
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-# 使用localhost
-
-&lt;iframe src="https://player.vimeo.com/video/191622952" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/191622952"&gt;localhost&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-&lt;/section&gt;
-&lt;section&gt;
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-#git 指令
-cd=change directory&lt;br/&gt;
-dir=directory&lt;br/&gt;
-mk dir=make directory&lt;br/&gt;
-git clone ***...........................克隆***倉儲資料&lt;br/&gt;
-git branch..............................查詢目前分支&lt;br/&gt;
-git branch***...........................建立***分支&lt;br/&gt;
-git checkout ***........................改成***分支&lt;br/&gt;
-git status..............................查看目前檔案情形&lt;br/&gt;
-git config --global user.name "***".....登入名稱***&lt;br/&gt;
-git config --global user.email ***......登入信箱***&lt;br/&gt;
-git add -A..............................加入全部(-A =all)&lt;br/&gt;
-git commit -m...........................提交訊息(-m =message)&lt;br/&gt;
-git push ### ***........................提交至###的***分支(若### =origin 表原網頁)
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-&lt;/section&gt;
-&lt;section&gt;
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-#git clone 順序
-1.cd 進入想儲存的資料夾
-&lt;br/&gt;
-2.git clone 遠端的網址 (可在後面加名稱表創一個資料夾)
-&lt;br/&gt;
-3.git branch 確認分支是否正確，可在後面加名稱表加入一個新分支
-&lt;br/&gt;
-4.git checkout 切換成想要使用的分支
-&lt;br/&gt;
-5.git status 確認資料夾狀態
-&lt;br/&gt;
-6.git all -A 加入全部的修改
-&lt;br/&gt;
-7.git commit -m 提交並給一個訊息
-&lt;br/&gt;
-8.git push origin 推回遠端，可在後面家要加入的分支的名稱
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-&lt;/section&gt;
-&lt;section&gt;
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-#W7作業
-   data3 = open("w6_group.txt").read()
-    #data3=open("w6_list.txt").read()
-    #print (data3)
-
-    group=data3.splitlines()
-    #for i in range(1,5,2):
-    #print(len(group))
-
-
-
-    # 希望將分組資料轉為學員數列, 令為變數名稱 result_g
-    result_g = []
-    # 已經註冊者數列設為 registered
-    registered = open("w6_list.txt").read()
-    registered =registered.splitlines()
-    #print(registered)
-    for line in group:
-        # 去除每一行最後的空白成員
-        sline = line.split(",")[:-1]
-        #print ( sline)
-        # 再將各組拆成個別組員後, 串成 result_g
-           for m in sline:
-            result_g.append(m)
-        #print(result_g)
-    #not_in_group = [c for c in registered if c not in result_g]
-    #print(not_in_group)
-
-    for m in registered:
-	    if m not in result_g:
-		    print(m)
-        #container3 &lt;= len(sline)
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-&lt;/section&gt;
-&lt;section&gt;
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-##end
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-&lt;/section&gt;
 </t>
 <t tx="yen.20161016012809.2"></t>
-<t tx="yen.20161016023122.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-# Github簡介
+<t tx="yen.20161016023122.1">&lt;/section&gt;
 
-&lt;iframe src="https://player.vimeo.com/video/191363717" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/191363717"&gt;github&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-    &lt;/script&gt;
-</t>
+@others</t>
 <t tx="yen.20161016023122.2"></t>
 <t tx="yen.20161022111056.1">@language python
 import os
