@@ -61,7 +61,15 @@
 &lt;p&gt;fossil add.&lt;/p&gt;
 &lt;p&gt;foaail commit -m&lt;/p&gt;
 &lt;p&gt;fossil remote-urloff&lt;/p&gt;
-&lt;p&gt;fossil push&lt;/p&gt;</summary><category term="網際管理"></category></entry><entry><title>40523101 何謂機械設計</title><link href="./40523101-he-wei-ji-jie-she-ji.html" rel="alternate"></link><published>2017-04-14T12:00:00+08:00</published><updated>2017-04-14T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-04-14:./40523101-he-wei-ji-jie-she-ji.html</id><summary type="html">&lt;p&gt;設計是一種表達，產生內容可去做機密配置
+&lt;p&gt;fossil push&lt;/p&gt;</summary><category term="網際管理"></category></entry><entry><title>40523122 利用 Fossil SCM 管理 mp4 影片檔案</title><link href="./40523122-li-yong-fossil-scm-guan-li-mp4-ying-pian-dang-an.html" rel="alternate"></link><published>2017-04-15T12:00:00+08:00</published><updated>2017-04-15T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-04-15:./40523122-li-yong-fossil-scm-guan-li-mp4-ying-pian-dang-an.html</id><summary type="html">&lt;p&gt;使用fossil clone等功能將mp4檔上傳至遠端fossil scm
+ 
+&lt;iframe src="https://player.vimeo.com/video/215012605" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/215012605"&gt;fossil clone&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="fossil"></category></entry><entry><title>40523122 設定ubuntu</title><link href="./40523122-she-ding-ubuntu.html" rel="alternate"></link><published>2017-04-15T12:00:00+08:00</published><updated>2017-04-15T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-04-15:./40523122-she-ding-ubuntu.html</id><summary type="html">&lt;p&gt;設定ubuntu伺服器版的ipv4網路設定&lt;/p&gt;
+
+
+&lt;iframe src="https://player.vimeo.com/video/215008028" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/215008028"&gt;set netip&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="ubuntu"></category></entry><entry><title>40523101 何謂機械設計</title><link href="./40523101-he-wei-ji-jie-she-ji.html" rel="alternate"></link><published>2017-04-14T12:00:00+08:00</published><updated>2017-04-14T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-04-14:./40523101-he-wei-ji-jie-she-ji.html</id><summary type="html">&lt;p&gt;設計是一種表達，產生內容可去做機密配置
 表達方式，口語、文字、2D、理論、實體、軟體。
 
 機：很多元件組成可達成精巧配置&lt;/p&gt;
@@ -74,12 +82,22 @@
 械-有一特定功能
 設-表達給人
 計-計算考量&lt;/p&gt;
-&lt;p&gt;機械-"硬體""流體".....最佳化---&amp;gt;機械最佳化&lt;/p&gt;</summary><category term="機械設計"></category></entry><entry><title>40523101 建立伺服器步驟</title><link href="./40523101-jian-li-si-fu-qi-bu-zou.html" rel="alternate"></link><published>2017-03-28T12:00:00+08:00</published><updated>2017-03-28T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-03-28:./40523101-jian-li-si-fu-qi-bu-zou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;機械-"硬體""流體".....最佳化---&amp;gt;機械最佳化&lt;/p&gt;</summary><category term="機械設計"></category></entry><entry><title>40523122 設定fossil http 指令</title><link href="./40523122-she-ding-fossil-http-zhi-ling.html" rel="alternate"></link><published>2017-04-12T12:00:00+08:00</published><updated>2017-04-12T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-04-12:./40523122-she-ding-fossil-http-zhi-ling.html</id><summary type="html">&lt;p&gt;設定fossil http 指令的操作影片&lt;/p&gt;
+
+
+&lt;iframe src="https://player.vimeo.com/video/214970216" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/214970216"&gt;envirnment&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="nginx"></category></entry><entry><title>40523101 建立伺服器步驟</title><link href="./40523101-jian-li-si-fu-qi-bu-zou.html" rel="alternate"></link><published>2017-03-28T12:00:00+08:00</published><updated>2017-03-28T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-03-28:./40523101-jian-li-si-fu-qi-bu-zou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;步驟一if config
 步驟二sudo apt-get install - f
 步驟三sudo dpkg-configure -a
-步驟四sudo apt install nginx&lt;/p&gt;</summary><category term="網際管理"></category></entry><entry><title>40523104 virtualBox</title><link href="./40523104-virtualbox.html" rel="alternate"></link><published>2017-03-21T00:00:00+08:00</published><updated>2017-03-21T00:00:00+08:00</updated><author><name>WCM6</name></author><id>tag:,2017-03-21:./40523104-virtualbox.html</id><summary type="html">&lt;p&gt;*檔案&amp;gt;喜好設定&amp;gt;網路&amp;gt;(1)MAT網路(用內部網路與虛擬主機連線) (2)僅限主機(僅用於虛擬內部)&amp;gt;設定&amp;gt;(3)橋皆顯示卡
+步驟四sudo apt install nginx&lt;/p&gt;</summary><category term="網際管理"></category></entry><entry><title>40523122 建立 Fossil SCM Server</title><link href="./40523122-jian-li-fossil-scm-server.html" rel="alternate"></link><published>2017-03-26T12:00:00+08:00</published><updated>2017-03-26T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-26:./40523122-jian-li-fossil-scm-server.html</id><summary type="html">&lt;p&gt;使用stunnel建立fossil scm server&lt;/p&gt;
+
+
+&lt;iframe src="https://player.vimeo.com/video/214970220" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/214970220"&gt;Fossil SCM&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="server"></category></entry><entry><title>40523104 virtualBox</title><link href="./40523104-virtualbox.html" rel="alternate"></link><published>2017-03-21T00:00:00+08:00</published><updated>2017-03-21T00:00:00+08:00</updated><author><name>WCM6</name></author><id>tag:,2017-03-21:./40523104-virtualbox.html</id><summary type="html">&lt;p&gt;*檔案&amp;gt;喜好設定&amp;gt;網路&amp;gt;(1)MAT網路(用內部網路與虛擬主機連線) (2)僅限主機(僅用於虛擬內部)&amp;gt;設定&amp;gt;(3)橋皆顯示卡
 
 1-fossil clone uri fossrl-file
 2-fossil open vcp.fossil
@@ -92,7 +110,12 @@
 9-ping 外部Gateway
 10-ping 外部IP
 11-tracert 區網主要網址
-12-tracert 廣域網路主要網址&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>45023102 Virtual box 使用</title><link href="./45023102-virtual-box-shi-yong.html" rel="alternate"></link><published>2017-03-15T12:00:00+08:00</published><updated>2017-03-15T12:00:00+08:00</updated><author><name>杜羿蓉</name></author><id>tag:,2017-03-15:./45023102-virtual-box-shi-yong.html</id><summary type="html">&lt;p&gt;在開學到期中這段期間 
+12-tracert 廣域網路主要網址&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>40523122 安裝 Fossil SCM</title><link href="./40523122-an-zhuang-fossil-scm.html" rel="alternate"></link><published>2017-03-19T12:00:00+08:00</published><updated>2017-03-19T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-19:./40523122-an-zhuang-fossil-scm.html</id><summary type="html">&lt;p&gt;使用Ubuntu桌面版建立 Fossil SCM Server的操作影片&lt;/p&gt;
+
+
+&lt;iframe src="https://player.vimeo.com/video/214970230" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/214970230"&gt;stunnel4&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="stunnel4"></category></entry><entry><title>45023102 Virtual box 使用</title><link href="./45023102-virtual-box-shi-yong.html" rel="alternate"></link><published>2017-03-15T12:00:00+08:00</published><updated>2017-03-15T12:00:00+08:00</updated><author><name>杜羿蓉</name></author><id>tag:,2017-03-15:./45023102-virtual-box-shi-yong.html</id><summary type="html">&lt;p&gt;在開學到期中這段期間 
 我學到如何用virtual box開啟一個虛擬的主機 
 這個影片是我學會如何開啟的成果
 
@@ -108,7 +131,28 @@ cd 跟目錄&lt;/p&gt;
 &lt;p&gt;j往下&lt;/p&gt;
 &lt;p&gt;k往上&lt;/p&gt;
 &lt;p&gt;右L&lt;/p&gt;
-&lt;p&gt;刪除S&lt;/p&gt;</summary><category term="Ubuntu"></category></entry><entry><title>40523104 設網路</title><link href="./40523104-she-wang-lu.html" rel="alternate"></link><published>2017-03-12T00:00:00+08:00</published><updated>2017-03-12T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-03-12:./40523104-she-wang-lu.html</id><summary type="html">&lt;p&gt;架設網路
+&lt;p&gt;刪除S&lt;/p&gt;</summary><category term="Ubuntu"></category></entry><entry><title>40523122 建立 nginx</title><link href="./40523122-jian-li-nginx.html" rel="alternate"></link><published>2017-03-12T12:00:00+08:00</published><updated>2017-03-12T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-12:./40523122-jian-li-nginx.html</id><summary type="html">&lt;p&gt;使用Ubuntu桌面版的操作影片&lt;/p&gt;
+
+
+&lt;iframe src="https://player.vimeo.com/video/214970226" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/214970226"&gt;nginx&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="nginx"></category></entry><entry><title>40523122 製作網路線</title><link href="./40523122-zhi-zuo-wang-lu-xian.html" rel="alternate"></link><published>2017-03-12T12:00:00+08:00</published><updated>2017-03-12T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-12:./40523122-zhi-zuo-wang-lu-xian.html</id><summary type="html">&lt;p&gt;製作網路線&lt;/p&gt;
+
+
+&lt;p&gt;兩種接頭 &lt;br/&gt;
+標準接線568B:&lt;br/&gt;
+橘白 橘 綠白 藍 藍白 綠 褐白 褐&lt;br/&gt;
+電腦對接568A:&lt;br/&gt;
+綠白 綠 橘白 藍 藍白 橘 褐白 褐&lt;br/&gt;
+  &lt;br/&gt;
+若兩端皆為568B 為網路線&lt;br/&gt;
+若一端為568B另一端為568A 為對接線&lt;br/&gt;
+&lt;br/&gt;
+製作方式:&lt;br/&gt;
+剝皮-&amp;gt;內線(不剝皮)依上述兩方法排列-&amp;gt;確定線頭整齊後插入接頭-&amp;gt;確定差至最深-&amp;gt;使用壓軸夾緊接頭&lt;br/&gt;
+&lt;br/&gt;
+心得:&lt;br/&gt;
+測試失敗原因可能是因為內線有剝線，或是線頭沒齊。&lt;br/&gt;&lt;/p&gt;</summary><category term="心得"></category></entry><entry><title>40523104 設網路</title><link href="./40523104-she-wang-lu.html" rel="alternate"></link><published>2017-03-12T00:00:00+08:00</published><updated>2017-03-12T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-03-12:./40523104-she-wang-lu.html</id><summary type="html">&lt;p&gt;架設網路
 &lt;/p&gt;
 &lt;p&gt;1.網路共用中心
 2.乙太網路3
