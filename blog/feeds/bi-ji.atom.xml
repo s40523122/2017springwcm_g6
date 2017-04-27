@@ -34,7 +34,11 @@
 &lt;p&gt;學校NDS 2001:288:6004:1::2&lt;/p&gt;
 &lt;p&gt;中華電信 2001:b000:168::1&lt;/p&gt;
 &lt;p&gt;DNS跟donate ips轉換&lt;/p&gt;
-&lt;p&gt;X11 localhost:0&lt;/p&gt;</summary><category term="網際管理"></category></entry><entry><title>40523101 fossil筆記</title><link href="./40523101-fossilbi-ji.html" rel="alternate"></link><published>2017-04-20T12:00:00+08:00</published><updated>2017-04-20T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-04-20:./40523101-fossilbi-ji.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;X11 localhost:0&lt;/p&gt;</summary><category term="網際管理"></category></entry><entry><title>40523103 所謂機械設計</title><link href="./40523103-suo-wei-ji-jie-she-ji.html" rel="alternate"></link><published>2017-04-20T13:00:00+08:00</published><updated>2017-04-20T13:00:00+08:00</updated><author><name>40523103</name></author><id>tag:,2017-04-20:./40523103-suo-wei-ji-jie-she-ji.html</id><summary type="html">&lt;p&gt;機械設計:討論 考量 思考 一種表達寫在設置上..
+ &lt;/p&gt;
+&lt;p&gt;口語 文字 2D3D 理論表達 實際觀看.. 精巧配置:物體 流體 軟體 很多零件組成 表達精巧配置的事物.. 機設:希望能產生一件能精巧配置的東西..&lt;/p&gt;
+&lt;p&gt;基本元件 虛實整合{數位化}-追求 網際內容管理 mdecourse.github.io CNAME1u,別名 2001:288:6004:17::7 2001:b000:168:慣用Dns-2001:288:6004:1::2 其他dns-2001:b000:168:1 ipv6&lt;/p&gt;
+&lt;p&gt;設計-控制台-網際網路-便更介面選項-乙太網路內容-取消ipv4.選項ipv6內容輸入到慣用的數字那邊....&lt;/p&gt;</summary><category term="心得"></category></entry><entry><title>40523101 fossil筆記</title><link href="./40523101-fossilbi-ji.html" rel="alternate"></link><published>2017-04-20T12:00:00+08:00</published><updated>2017-04-20T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-04-20:./40523101-fossilbi-ji.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;ipconfig/all&lt;/p&gt;
 &lt;p&gt;ping 自己ip&lt;/p&gt;
@@ -61,7 +65,9 @@
 &lt;p&gt;fossil add.&lt;/p&gt;
 &lt;p&gt;foaail commit -m&lt;/p&gt;
 &lt;p&gt;fossil remote-urloff&lt;/p&gt;
-&lt;p&gt;fossil push&lt;/p&gt;</summary><category term="網際管理"></category></entry><entry><title>40523101 何謂機械設計</title><link href="./40523101-he-wei-ji-jie-she-ji.html" rel="alternate"></link><published>2017-04-14T12:00:00+08:00</published><updated>2017-04-14T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-04-14:./40523101-he-wei-ji-jie-she-ji.html</id><summary type="html">&lt;p&gt;設計是一種表達，產生內容可去做機密配置
+&lt;p&gt;fossil push&lt;/p&gt;</summary><category term="網際管理"></category></entry><entry><title>40523103 Emp page 網路設定</title><link href="./40523103-emp-page-wang-lu-she-ding.html" rel="alternate"></link><published>2017-04-15T13:00:00+08:00</published><updated>2017-04-15T13:00:00+08:00</updated><author><name>40523103</name></author><id>tag:,2017-04-15:./40523103-emp-page-wang-lu-she-ding.html</id><summary type="html">&lt;p&gt;Emp page 網路設定
+ &lt;/p&gt;
+&lt;p&gt;把start丟進ipconfing--找IPV4位子{乙太網路} start-cd tmp/cmsimfiy{開scite,開data找launchleo.py開進scite}要開leo 用leod開data-tmp-cmsimfly-cmsimfiy.leo 找@clean wsgi.py把192.168.1.54改掉 ipv42的位子 port=9443改port=443 回到start-python wsgi.py googie設定改proxy-LAN設定-位:proxy.xu06ru, 連接副:3128.進階- 例外-https://ipv4位址:port 在開新分頁找上面網址就OK&lt;/p&gt;</summary><category term="心得"></category></entry><entry><title>40523101 何謂機械設計</title><link href="./40523101-he-wei-ji-jie-she-ji.html" rel="alternate"></link><published>2017-04-14T12:00:00+08:00</published><updated>2017-04-14T12:00:00+08:00</updated><author><name>江宜欣</name></author><id>tag:,2017-04-14:./40523101-he-wei-ji-jie-she-ji.html</id><summary type="html">&lt;p&gt;設計是一種表達，產生內容可去做機密配置
 表達方式，口語、文字、2D、理論、實體、軟體。
 
 機：很多元件組成可達成精巧配置&lt;/p&gt;
