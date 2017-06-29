@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>WCM6的小組作業Blog</title><link href="./" rel="alternate"></link><link href="./feeds/jiao-xue-ying-pian.atom.xml" rel="self"></link><id>./</id><updated>2017-06-29T00:00:00+08:00</updated><entry><title>04 剪網路線:上網找其他的資料~</title><link href="./04-jian-wang-lu-xian-shang-wang-zhao-qi-ta-de-zi-liao.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./04-jian-wang-lu-xian-shang-wang-zhao-qi-ta-de-zi-liao.html</id><summary type="html">&lt;p&gt;RJ45網路線接頭
+&lt;br/&gt;
+一定要有的工具：
+&lt;br/&gt;
+6P / 8P 網路線壓線鉗、8P8C網路接頭 、 保護套、斜口鉗、網路線。
+&lt;br/&gt;
+1.去皮。
+&lt;br/&gt;
+2.內線分四對，分別為橘白＋橘，綠白＋綠，藍白＋藍，棕白＋棕四對對絞。
+&lt;br/&gt;
+3.每對對絞線分開由左到右為橘白、橘、綠白、綠、藍白、藍，棕白、棕。
+&lt;br/&gt;
+4.整直後由左到右為橘白、橘、綠白、藍、藍白、綠，棕白、棕。
+&lt;br/&gt;
+5.將綠藍線對調。
+&lt;br/&gt;
+6.將線給插進去網路接頭內，固定彈片向外。
+&lt;br/&gt;
+7.壓線。
+&lt;br/&gt;
+以下節制網路補充:
+&lt;br/&gt;
+UTP 網路線：為八股對絞單芯線，無遮蔽
+&lt;br/&gt;
+‧FTP 網路線：為八股對絞單芯線，鋁箔遮蔽
+&lt;br/&gt;
+‧SFTP (簡稱STP)網路線：為八股對絞單芯線，鋁箔+銅編織網遮蔽
+&lt;br/&gt;
+‧Cat.5 100MHz 工作頻率
+&lt;br/&gt;
+‧Cat.5e 100MHz 工作頻率(為Cat.5加強型最大可到 350MHz 但無認證標準)
+&lt;br/&gt;
+‧Cat.6 1GHz 工作頻率(為十字對絞線，每對工作頻率 250MHz 共四對)
+&lt;br/&gt;
+‧Cat.5 - 100MHz / Cat.5e - 125MHz / Cat.6 -1Giga電腦網路 電纜線
+&lt;br/&gt;
+‧RJ-45 接頭 3 叉：適用於單芯網路線(一般網路線)，2 叉：用於七股線(軟線)&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>04 啟動 Fossil SCM</title><link href="./04-qi-dong-fossil-scm.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./04-qi-dong-fossil-scm.html</id><summary type="html">&lt;p&gt;建其他人的:
+&lt;br/&gt;
+--fossil init 4444.fossil
+&lt;br/&gt;
+--fossil sql -R 4444.fossil ("-R"是指定要看後面那一項的內容)
+&lt;br/&gt;
+問資料表--.schema user("user"資料表名稱)&lt;/p&gt;
+&lt;p&gt;查對應管理密碼
+&lt;br/&gt;
+select login.pw.cap from user;("select"選擇"login""pw""cap"3個欄位
+&lt;br/&gt;
+*進入後改密碼就不是明碼了  &lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>04 如何修改 stunnel.conf 檔案/給定啟動電腦 IP</title><link href="./04-ru-he-xiu-gai-stunnelconf-dang-an-gei-ding-qi-dong-dian-nao-ip.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./04-ru-he-xiu-gai-stunnelconf-dang-an-gei-ding-qi-dong-dian-nao-ip.html</id><summary type="html">&lt;p&gt;y槽-stunnel-config-stunnel.cof(設定檔案)-抓出來Q
+&lt;br/&gt;
+=&amp;gt;查IP:ipconig /all-----&amp;gt;ip:X
+&lt;br/&gt;
+回Q的[https]下的accept改掉IP儲存
+&lt;br/&gt;
+去stunnel啟動configuration-&amp;gt;Reload Configuration
+&lt;br/&gt;
+*倉儲名稱在tmp內
+&lt;br/&gt; &lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>04 小組網站</title><link href="./04-xiao-zu-wang-zhan.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./04-xiao-zu-wang-zhan.html</id><summary type="html">&lt;p&gt;1.config--改帳號和密碼
+&lt;br/&gt;
+2.image files upload--上傳檔案
+&lt;br/&gt;
+3.siteMap--所有階層頁面
+&lt;br/&gt;
+4.edit-選擇要加層標題-Formates-headings--加分支
+&lt;br/&gt;
+5.如要新增影片，要到程式碼貼上。&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>04 虛擬主機</title><link href="./04-xu-ni-zhu-ji.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./04-xu-ni-zhu-ji.html</id><summary type="html">&lt;p&gt;到VatualBox管理員
+&lt;br/&gt;
+新增-ub(64-bit)-使用下載的虛擬碟
+&lt;br/&gt;
+ub設定-網路=&amp;gt;橋接介面卡-開啟
+&lt;br/&gt;
+=&amp;gt;輸入密碼-進入-sudo apt update-輸入密碼-(sudo rm /var/lib/dpkg/lock-sudo apt~~)-sudo apt install nginx-ifconfig-cd /var/www/html-/sudo vi index. nginx-debin.html
+&lt;br/&gt;
+*fossil clone http://domo@mde2a2.kmol.info/mad2a2 mde2a2.fossil
+&lt;br/&gt;
+("clone"從後免網址clone，"@後一串"綁定的帳號，"mde2a2.fossil"儲存地方
+&lt;br/&gt;
+&lt;br/&gt;
+Stunnel建立Fossil SCM server:
+&lt;br/&gt;
+pud-sudo vi /etc/cnvironment設定
+&lt;br/&gt;
+HTPS=ON---環境用HTPS
+&lt;br/&gt;
+打   /etc/init.d/stunnel4 restart/   可重新啟動stunnel4
+&lt;br/&gt;
+設定完成後重新開機---https://yourip連至mde2a1 fossil介面
+&lt;br/&gt;
+&lt;br/&gt;
+管理 html:
+&lt;br/&gt;
+跳轉:
+&lt;br/&gt;
+1.Html-&amp;gt;meta代表中間無停留
+&lt;br/&gt;
+2.Java
+&lt;br/&gt;
+3."https://8.mde.tw"-使用者用&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>04 學習目標</title><link href="./04-xue-xi-mu-biao.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./04-xue-xi-mu-biao.html</id><summary type="html">&lt;p&gt;使用Ubuntu系統，並在純ipv6狀態下管理網際內容。&lt;br/&gt;
+期中目標：&lt;br/&gt;
+製作網路線分組組裝電腦，安裝設定Ubuntu系統，連接網路並學習使用putty遠端操作電腦。&lt;br/&gt;
+期末目標：&lt;br/&gt;
+於電腦上架設stunnel與CMsimfly。&lt;br/&gt;
+目前小組進度：&lt;br/&gt;
+已完成進度到fossil架設，正在架設CMsimfly至主機內。&lt;br/&gt;&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>04 用Leo開啟CMSimfly</title><link href="./04-yong-leokai-qi-cmsimfly.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./04-yong-leokai-qi-cmsimfly.html</id><summary type="html">&lt;p&gt;cd tmp-cd cmsimfy-python vsgi.py
+&lt;br/&gt;
+*flaskapp.py-tmp-cmsimfly-flaskapp.py
+&lt;br/&gt;
+程式碼沒分小節，太複雜不好更改不意管理。&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>02 何謂機械設計</title><link href="./02-he-wei-ji-jie-she-ji.html" rel="alternate"></link><published>2017-04-26T12:00:00+08:00</published><updated>2017-04-26T12:00:00+08:00</updated><author><name>杜羿蓉</name></author><id>tag:,2017-04-26:./02-he-wei-ji-jie-she-ji.html</id><summary type="html">&lt;p&gt;何謂機械設計
+設計是一種表達，經過討論，考量以及思考
+一般表達的方法, 包括口語表達, 文字表達, 2D 表達, 3D 表達, 理論表達, 實體觀看表達等
+而機械設計共包含下列要件
+詳細思慮考量
+為互動元件間之精巧配置 
+配置可展現特定功能, 用於解決所面臨問題
+明確表達結果之具體規劃 &lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>02 關於虛擬主機</title><link href="./02-guan-yu-xu-ni-zhu-ji.html" rel="alternate"></link><published>2017-04-25T12:00:00+08:00</published><updated>2017-04-25T12:00:00+08:00</updated><author><name>杜羿蓉</name></author><id>tag:,2017-04-25:./02-guan-yu-xu-ni-zhu-ji.html</id><summary type="html">&lt;p&gt;在開學到期中這段期間 
+我學到如何用virtual box開啟一個虛擬的主機 
+這個影片是我學會如何開啟的成果&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/214673250" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214673250"&gt;2017-04-20_23-12-59&lt;/a&gt; from &lt;a href="https://vimeo.com/user58919776"&gt;杜羿蓉&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>04 筆記030</title><link href="./04-bi-ji-030.html" rel="alternate"></link><published>2017-04-25T00:00:00+08:00</published><updated>2017-04-25T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-04-25:./04-bi-ji-030.html</id><summary type="html">&lt;p&gt;在虛擬機(virtualbox 16.04)啟動stunnel與fossil Scm&lt;/p&gt;
+&lt;p&gt;X Term:
+- cd 目前所在目錄
+- pwd 印出所在工作
+- clear 刷新
+- history 查看之前所下的指令
+- history&amp;gt;his.txt 存指令
+- ls -l
+- cat hic.txt 1more (show出但只要一頁)
+- clear
+- sudo apt install stunnel4 -y
+- sudo vi /etc/defanult/stunnel4
+- ls -l
+- sudo mv localhost.* /etc/stunnel/
+- ls -l
+- cd -etc-stunnel
+- sudo vi stunnel.conf
+- [https]
+  accept = (ip)
+  cert = /etc/stunnel/localhost.crt
+  key = /usr/bin/fossil
+  execargs = sur/bin/fossil http/home/cadlab/repository/wcmg0.fossil -- https - nojail
+- sudo/etc/init.d/stunnel4.servce.
+- cd
+- mkdir repository
+- cd repository
+- fossil init wcmg0.fossil&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>04 何謂"機械設計"</title><link href="./04-he-wei-ji-jie-she-ji.html" rel="alternate"></link><published>2017-04-25T00:00:00+08:00</published><updated>2017-04-25T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-04-25:./04-he-wei-ji-jie-she-ji.html</id><summary type="html">&lt;p&gt;*虛實整合最佳化
+機-精巧配置
+械-有一特定功能
+設-表達給人
+計-計算考量&lt;/p&gt;
+&lt;p&gt;機械-"硬體""流體".....最佳化---&amp;gt;機械最佳化&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>04 設網路</title><link href="./04-she-wang-lu.html" rel="alternate"></link><published>2017-04-25T00:00:00+08:00</published><updated>2017-04-25T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-04-25:./04-she-wang-lu.html</id><summary type="html">&lt;p&gt;1.網路共用中心
+2.乙太網路3
+3.去除TPV4的勾勾
+4.點"使用下列DNS伺服器位址"
+   慣用:2001:288:6004:1::2(::表示省略)
+   其他:2001:b000:1::168
+5.到遊覽器改Proxy
+   Poxy--&amp;gt;LAN設定--&amp;gt;學校IP:[2001:288:6004:17::17]&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>04 virtualBox</title><link href="./04-virtualbox.html" rel="alternate"></link><published>2017-04-25T00:00:00+08:00</published><updated>2017-04-25T00:00:00+08:00</updated><author><name>WCM6</name></author><id>tag:,2017-04-25:./04-virtualbox.html</id><summary type="html">&lt;p&gt;*檔案&amp;gt;喜好設定&amp;gt;網路&amp;gt;(1)MAT網路(用內部網路與虛擬主機連線) (2)僅限主機(僅用於虛擬內部)&amp;gt;設定&amp;gt;(3)橋皆顯示卡&lt;/p&gt;
+&lt;p&gt;1-fossil clone uri fossrl-file
+2-fossil open vcp.fossil
+3-fossil add
+4-fossil commit -m
+(如沒密碼5-fossil remote-uel off)
+6-fossil psuh 
+7-ipconfig/all
+8-ping 自己的IP 
+9-ping 外部Gateway
+10-ping 外部IP
+11-tracert 區網主要網址
+12-tracert 廣域網路主要網址&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>36 putty設定</title><link href="./36-puttyshe-ding.html" rel="alternate"></link><published>2016-05-23T12:00:00+08:00</published><updated>2016-05-23T12:00:00+08:00</updated><author><name>黃胤瑋</name></author><id>tag:,2016-05-23:./36-puttyshe-ding.html</id><summary type="html">&lt;p&gt;如何利用putty進行遠端連線&lt;/p&gt;
+
+
+&lt;p&gt;首先我們要先開xwindow&lt;br /&gt;
+打開putty
+IP 設定要連的主機網路IP
+SSH --X11--localhost:0&lt;br /&gt;
+proxy 要設IPV4 轉IPV6的跳板不然無法連接至小組主機&lt;/p&gt;
+&lt;p&gt;實際操作影片:&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/223238170" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/223238170"&gt;putty 連接小組主機教學&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912621"&gt;黃胤瑋&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/section&gt;</summary><category term="遠端"></category></entry><entry><title>36 組裝電腦</title><link href="./36-zu-zhuang-dian-nao.html" rel="alternate"></link><published>2016-04-23T12:00:00+08:00</published><updated>2016-04-23T12:00:00+08:00</updated><author><name>黃胤瑋</name></author><id>tag:,2016-04-23:./36-zu-zhuang-dian-nao.html</id><summary type="html">&lt;p&gt;小組一起建立實體機的伺服器
+ 把廢棄電腦從新組裝&lt;/p&gt;
+
+
+&lt;p&gt;我們利用系館即將報廢的電腦從新拼湊&lt;br /&gt;
+組裝成功能更加強大的電腦來建立伺服器  &lt;br /&gt;
+首先我們把一台電腦側蓋打開&lt;br /&gt;
+取出還原卡並且把RAM和硬碟拔除&lt;br /&gt;
+裝置在另一台電腦上就完成電腦升級了&lt;/p&gt;</summary><category term="電腦組裝"></category></entry><entry><title>36 Ubuntu 16.04 環境下安裝並設定裝Stunnel 與 Fossil SCM</title><link href="./36-ubuntu-1604-huan-jing-xia-an-zhuang-bing-she-ding-zhuang-stunnel-yu-fossil-scm.html" rel="alternate"></link><published>2016-04-22T12:00:00+08:00</published><updated>2016-04-22T12:00:00+08:00</updated><author><name>黃胤瑋</name></author><id>tag:,2016-04-22:./36-ubuntu-1604-huan-jing-xia-an-zhuang-bing-she-ding-zhuang-stunnel-yu-fossil-scm.html</id><summary type="html">&lt;p&gt;說明如何在 Ubuntu 操作系統中, 安裝並設定 Stunnel 與 Fossil SCM server .&lt;/p&gt;
+
+
+&lt;p&gt;首先開始終端機並且輸入以下指&lt;/p&gt;
+&lt;p&gt;sudo apt update&lt;/p&gt;
+&lt;p&gt;sudo apt install stunnel4 -y&lt;/p&gt;
+&lt;p&gt;sudo apt install fossil&lt;/p&gt;
+&lt;p&gt;就能完成Stunnel 與 Fossil SCM 安裝
+PS:必須在網路連線下才能完成此安裝&lt;/p&gt;
+&lt;p&gt;環境變數與開機啟動設定:&lt;/p&gt;
+&lt;p&gt;於終端機中輸入指令並且於 vi模式下件修改與建立檔案&lt;/p&gt;
+&lt;p&gt;/etc/environment 設定:&lt;/p&gt;
+&lt;p&gt;輸入 sudo vi /etc/environment &lt;/p&gt;
+&lt;p&gt;新增此行 HTTPS=on&lt;/p&gt;
+&lt;p&gt;/etc/default/stunnel4 檔案設定:&lt;/p&gt;
+&lt;p&gt;輸入 sudo vi /etc/default/stunnel4&lt;/p&gt;
+&lt;p&gt;把 ENABLED=0 改成 1&lt;/p&gt;
+&lt;p&gt;Stunnel 設定並執行 fossil http 指令
+stunnel.conf&lt;/p&gt;
+&lt;p&gt;建立 localhost.key 與 localhost.crt:&lt;/p&gt;
+&lt;p&gt;輸入 sudo vi /etc/environment sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt&lt;/p&gt;
+&lt;p&gt;/etc/stunnel/stunnel.conf 設定檔案, 可同時支援 IPv4 與 IPv6 協定:&lt;/p&gt;
+&lt;p&gt;輸入sudo vi /etc/stunnel/stunnel.conf&lt;/p&gt;
+&lt;p&gt;並且新增以下設定&lt;/p&gt;
+&lt;p&gt;[https]&lt;/p&gt;
+&lt;p&gt;accept = your_IPv4_ip:443&lt;/p&gt;
+&lt;p&gt;accept = :::443&lt;/p&gt;
+&lt;p&gt;cert = /etc/stunnel/localhost.crt&lt;/p&gt;
+&lt;p&gt;key = /etc/stunnel/localhost.key&lt;/p&gt;
+&lt;p&gt;exec = /usr/bin/fossil&lt;/p&gt;
+&lt;p&gt;execargs = /usr/bin/fossil http /home/user/repository/mde2a1.fossil -- https --nojail&lt;/p&gt;
+&lt;p&gt;完成以上步驟就成功完成 安裝及設定&lt;/p&gt;
+&lt;p&gt;實際操作影片:&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/214832102" width="640" height="372" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/214832102"&gt;Stunnel 與 Fossil SCM server  安裝與設定&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912621"&gt;黃胤瑋&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/section&gt;</summary><category term="網路設定"></category></entry><entry><title>36 v i 指令說明</title><link href="./36-v-i-zhi-ling-shuo-ming.html" rel="alternate"></link><published>2016-04-21T15:00:00+08:00</published><updated>2016-04-21T15:00:00+08:00</updated><author><name>黃胤瑋</name></author><id>tag:,2016-04-21:./36-v-i-zhi-ling-shuo-ming.html</id><summary type="html">&lt;p&gt;vi 提供兩種操作模式：輸入模式(insert mode)和指令模式(command mode)
+。當使用者進入 vi 後，即處在指令模式下，此刻鍵入之任何字元皆被視為
+指令。在此模式下可進行刪除、修改等動作。若要輸入資料，則需進入輸入
+模式。
+&lt;/p&gt;
+&lt;p&gt;a                由游標之後加入資料。
+A               由該行之末加入資料。
+i                由游標之前加入資料。
+I                由該行之首加入資料
+ o              新增一行於該行之下供輸入資料之用。
+O              新增一行於該行之上供輸入資料之用。
+ h              向左移一個字元。
+ j               向上移一個字元。
+ k               向下移一個字元。
+ l               向右移一個字元。
+0               移至該行之首
+$               移至該行之末。
+^               移至該行的第一個字元處。
+H              移至視窗的第一列。
+M              移至視窗的中間那列。
+L               移至視窗的最後一列。
+G               移至該檔案的最後一列。
+x                刪除游標所在該字元。X       刪除游標所在之前一字元。
+dd              刪除游標所在該行。
+ r               用接於此指令之後的字元取代(replace)游標所在字元。
+ R              進入取代狀態，直到《ESC》為止。
+ s               刪除游標所在之字元
+S               刪除游標所在之該行資料&lt;/p&gt;
+&lt;p&gt;:wq            完成編輯並儲存&lt;/p&gt;</summary><category term="網路設定"></category></entry><entry><title>36 VirtualBox安裝並且安裝Ubuntu於VirtualBox</title><link href="./36-virtualboxan-zhuang-bing-qie-an-zhuang-ubuntuyu-virtualbox.html" rel="alternate"></link><published>2016-04-21T12:00:00+08:00</published><updated>2016-04-21T12:00:00+08:00</updated><author><name>黃胤瑋</name></author><id>tag:,2016-04-21:./36-virtualboxan-zhuang-bing-qie-an-zhuang-ubuntuyu-virtualbox.html</id><summary type="html">&lt;p&gt;VirtualBox安裝並且安裝Ubuntu於VirtualBox
+ &lt;iframe src="https://player.vimeo.com/video/214116206" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214116206"&gt;VirtualBox安裝並且安裝Ubuntu於VirtualBox&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912621"&gt;黃胤瑋&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;/section&gt;&lt;/p&gt;</summary><category term="網路設定"></category></entry><entry><title>36 如何設定ipv6網路</title><link href="./36-ru-he-she-ding-ipv6wang-lu.html" rel="alternate"></link><published>2016-04-07T12:00:00+08:00</published><updated>2016-04-07T12:00:00+08:00</updated><author><name>黃胤瑋</name></author><id>tag:,2016-04-07:./36-ru-he-she-ding-ipv6wang-lu.html</id><summary type="html">&lt;p&gt;連線到IPV6 的網路設定教學
+&lt;/p&gt;
+&lt;p&gt;連線到IPV6 的網路設定教學&lt;/p&gt;
+&lt;p&gt;首先進入網路和共用中心&lt;/p&gt;
+&lt;p&gt;選擇乙太網路內容&lt;/p&gt;
+&lt;p&gt;把IPV4打勾按掉 選擇IPV6 然後打勾IPV6 點選內容&lt;/p&gt;
+&lt;p&gt;把使用下列DNS伺服器網址打勾&lt;/p&gt;
+&lt;p&gt;慣用DNS伺服器:輸入學校的IPV6 IP&lt;/p&gt;
+&lt;p&gt;其他DNS伺服器:中華電信的IPV6 IP&lt;/p&gt;
+&lt;p&gt;設定完後 進入網際網路的設定&lt;/p&gt;
+&lt;p&gt;點開 Proxy 設定&lt;/p&gt;
+&lt;p&gt;點選LAN設定&lt;/p&gt;
+&lt;p&gt;把Proxy伺服器打勾網址用系館的IPV6 連接阜打3128&lt;/p&gt;
+&lt;p&gt;就能完成IPV6的連線&lt;/p&gt;</summary><category term="網路設定"></category></entry><entry><title>36 網路線製作</title><link href="./36-wang-lu-xian-zhi-zuo.html" rel="alternate"></link><published>2016-04-07T12:00:00+08:00</published><updated>2016-04-07T12:00:00+08:00</updated><author><name>黃胤瑋</name></author><id>tag:,2016-04-07:./36-wang-lu-xian-zhi-zuo.html</id><summary type="html">&lt;p&gt;首先準備好材料: 8蕊網路線
+                              RJ-45接頭
+                               剪刀
+                               壓線鉗&lt;/p&gt;
+&lt;p&gt;接下來就開始製作八
+把網路線的外層塑膠殼剪開 裡面會有8條有顏色的線 將他們整理好並且剪到一樣長&lt;/p&gt;
+&lt;p&gt;網路線有2種接法&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;一般傳輸用網路線色對規則 (兩端的網路頭皆為以下接法)
+白橙、橙、白綠、藍、白藍、綠、白棕、棕&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;兩台電腦資料對傳用色對規則 (又稱跳接法、一頭以正常傳輸色對接法、另一頭則為以下接法)
+白綠、綠、白橙、藍、白藍、橙、白棕、棕&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;完成以上步驟後就能完成網路線製作&lt;/p&gt;
+
+
+&lt;p&gt;&lt;h2&gt;網路線製作影片&lt;/h2&gt;
+&lt;iframe src="https://player.vimeo.com/video/214638661" width="640" height="1138" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214638661"&gt;網路線製作教學&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912621"&gt;黃胤瑋&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;/section&gt;&lt;/p&gt;</summary><category term="網路設定"></category></entry></feed>

@@ -259,7 +259,16 @@ WCM6的小組作業Blog            </a>
                             <a href="./category/cao-zuo-ying-pian.html">操作影片</a>
                         </li>
                         <li >
-                            <a href="./category/shi-zuo-ying-pian.html">實作影片</a>
+                            <a href="./category/jiao-xue-ying-pian.html">教學影片</a>
+                        </li>
+                        <li >
+                            <a href="./category/jie-yu.html">結語</a>
+                        </li>
+                        <li >
+                            <a href="./category/lun-shu.html">論述</a>
+                        </li>
+                        <li >
+                            <a href="./category/ying-pian.html">影片</a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -281,40 +290,135 @@ WCM6的小組作業Blog            </a>
         <div class="col-sm-9">
 
             <article>
-                <h2><a href="./40523136-wang-lu-xian-zhi-zuo.html">40523136 網路線製作</a></h2>
-                <div class="summary"><p>首先準備好材料: 8蕊網路線
-                              RJ-45接頭
-                               剪刀
-                               壓線鉗
-                               
-                    <a class="btn btn-default btn-xs" href="./40523136-wang-lu-xian-zhi-zuo.html">more ...</a>
+                <h2><a href="./02-guan-yu-xu-ni-zhu-ji.html">02 關於虛擬主機</a></h2>
+                <div class="summary"><p>在開學到期中這段期間 
+我學到如何用virtual box開啟一個虛擬的主機 
+這個影片是我學會如何開啟的成果</p>
+<p><iframe src="https://player.vimeo.com/video/214673250" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214673250">2017-04-20_23-12-59</a> from <a href="https://vimeo.com/user58919776">杜羿蓉</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+                    <a class="btn btn-default btn-xs" href="./02-guan-yu-xu-ni-zhu-ji.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="./40523136-v-i-zhi-ling-shuo-ming.html">40523136  v i 指令說明</a></h2>
-                <div class="summary"><p>vi 提供兩種操作模式：輸入模式(insert mode)和指令模式(command mode)
-。當使用者進入 vi 後，即處在指令模式下，此刻鍵入之任何字元皆被視為
-指令。在此模式下可進行刪除、修改等動作。若要輸入資料，則需進入輸入
-模式。
-
-                    <a class="btn btn-default btn-xs" href="./40523136-v-i-zhi-ling-shuo-ming.html">more ...</a>
+                <h2><a href="./04-bi-ji-030.html">04 筆記030</a></h2>
+                <div class="summary"><p>在虛擬機(virtualbox 16.04)啟動stunnel與fossil Scm</p>
+<p>X Term:
+- cd 目前所在目錄
+- pwd 印出所在工作
+- clear 刷新
+- history 查看之前所下的指令
+- history&gt;his.txt 存指令
+- ls -l
+- cat hic.txt 1more (show出但只要一頁)
+- clear
+- sudo apt install stunnel4 -y
+- sudo vi /etc/defanult/stunnel4
+- ls -l
+- sudo mv localhost.* /etc/stunnel/
+- ls -l
+- cd -etc-stunnel
+- sudo ...</p>
+                    <a class="btn btn-default btn-xs" href="./04-bi-ji-030.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="./40523136-virtualboxan-zhuang-bing-qie-an-zhuang-ubuntuyu-virtualbox.html">40523136 VirtualBox安裝並且安裝Ubuntu於VirtualBox</a></h2>
-                <div class="summary"><p>VirtualBox安裝並且安裝Ubuntu於VirtualBox
+                <h2><a href="./04-he-wei-ji-jie-she-ji.html">04 何謂"機械設計"</a></h2>
+                <div class="summary"><p>*虛實整合最佳化
+機-精巧配置
+械-有一特定功能
+設-表達給人
+計-計算考量</p>
+<p>機械-"硬體""流體".....最佳化---&gt;機械最佳化</p>
+                    <a class="btn btn-default btn-xs" href="./04-he-wei-ji-jie-she-ji.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./04-she-wang-lu.html">04 設網路</a></h2>
+                <div class="summary"><p>1.網路共用中心
+2.乙太網路3
+3.去除TPV4的勾勾
+4.點"使用下列DNS伺服器位址"
+   慣用:2001:288:6004:1::2(::表示省略)
+   其他:2001:b000:1::168
+5.到遊覽器改Proxy
+   Poxy--&gt;LAN設定--&gt;學校IP:[2001:288:6004:17::17]</p>
+                    <a class="btn btn-default btn-xs" href="./04-she-wang-lu.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./04-virtualbox.html">04 virtualBox</a></h2>
+                <div class="summary"><p>*檔案&gt;喜好設定&gt;網路&gt;(1)MAT網路(用內部網路與虛擬主機連線) (2)僅限主機(僅用於虛擬內部)&gt;設定&gt;(3)橋皆顯示卡</p>
+<p>1-fossil clone uri fossrl-file
+2-fossil open vcp.fossil
+3-fossil add
+4-fossil commit -m
+(如沒密碼5-fossil remote-uel off)
+6-fossil psuh 
+7-ipconfig/all
+8-ping 自己的IP 
+9-ping 外部Gateway
+10-ping 外部IP
+11-tracert 區網主要網址
+12-tracert 廣域網路主要網址</p>
+                    <a class="btn btn-default btn-xs" href="./04-virtualbox.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./03-suo-wei-ji-jie-she-ji.html">03 所謂機械設計</a></h2>
+                <div class="summary"><p>機械設計:討論 考量 思考 一種表達寫在設置上..
  
-                    <a class="btn btn-default btn-xs" href="./40523136-virtualboxan-zhuang-bing-qie-an-zhuang-ubuntuyu-virtualbox.html">more ...</a>
+                    <a class="btn btn-default btn-xs" href="./03-suo-wei-ji-jie-she-ji.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="./40523136-ru-he-she-ding-ipv6wang-lu.html">40523136 如何設定ipv6網路</a></h2>
-                <div class="summary"><p>連線到IPV6 的網路設定教學
+                <h2><a href="./22-li-yong-fossil-scm-guan-li-mp4-ying-pian-dang-an.html">22 利用 Fossil SCM 管理 mp4 影片檔案</a></h2>
+                <div class="summary"><p>使用fossil clone等功能將mp4檔上傳至遠端fossil scm<br/>
+ 
+                    <a class="btn btn-default btn-xs" href="./22-li-yong-fossil-scm-guan-li-mp4-ying-pian-dang-an.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./03-emp-page-wang-lu-she-ding.html">03 Emp page 網路設定</a></h2>
+                <div class="summary"><p>Emp page 網路設定
+ 
+                    <a class="btn btn-default btn-xs" href="./03-emp-page-wang-lu-she-ding.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./22-she-ding-ubuntu.html">22 設定ubuntu</a></h2>
+                <div class="summary"><p>設定ubuntu伺服器版的ipv4網路設定<br/></p>
 
-                    <a class="btn btn-default btn-xs" href="./40523136-ru-he-she-ding-ipv6wang-lu.html">more ...</a>
+                    <a class="btn btn-default btn-xs" href="./22-she-ding-ubuntu.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./01-fossilbi-ji.html">01 fossil筆記</a></h2>
+                <div class="summary"><p>ipconfig/all </p>
+<p>ping 自己ip</p>
+<p>ping gateway ip</p>
+<p>ping 外部ip</p>
+<p>tracert 區域網路主要網站</p>
+<p>tracet 廣域網路主要網站</p>
+<p>喜好設定 全體設定</p>
+<p>虛擬主機可透過Nat連線</p>
+<p>僅限虛擬主機內部</p>
+<p>設定 U04設定值→網路→共用C槽→自動掛載案X</p>
+<p>xlaunch putty.exe</p>
+<p>mde→ana2016fall→data→xming→xlauch.exe</p>
+<p>Host Name 192.168.1.114</p>
+<p>saved sessions:114</p>
+<p>ssh→x11→localhost:0</p>
+<p>fossil clone http://username@192.168 ...</p>
+                    <a class="btn btn-default btn-xs" href="./01-fossilbi-ji.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -328,7 +432,12 @@ WCM6的小組作業Blog            </a>
                             href="./index2.html">2</a></li>
                     <li class="active"><a
                             href="./index3.html">3</a></li>
-                <li class="next disabled"><a href="#">&raquo;</a></li>
+                    <li class=""><a
+                            href="./index4.html">4</a></li>
+                    <li class=""><a
+                            href="./index5.html">5</a></li>
+                <li class="next"><a
+                        href="./index4.html">&raquo;</a></li>
         </ul>
         </div>
         <div class="col-sm-3" id="sidebar">
@@ -340,28 +449,28 @@ WCM6的小組作業Blog            </a>
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="./40523104-chan-hui-bi-ji-030.html">
-                            40523104 懺悔筆記030
+                        <a href="./01-ru-he-jie-wang-lu-xian.html">
+                            01 如何接網路線
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./40523101-lian-xian-ipv6jiao-xue.html">
-                            40523101 連線ipv6教學
+                        <a href="./22-qi-mo-bao-gao.html">
+                            22 期末報告
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./40523103-suo-wei-ji-jie-she-ji.html">
-                            40523103 所謂機械設計
+                        <a href="./04-jian-wang-lu-xian-shang-wang-zhao-qi-ta-de-zi-liao.html">
+                            04 剪網路線:上網找其他的資料~
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./40523101-fossilbi-ji.html">
-                            40523101 fossil筆記
+                        <a href="./04-qi-dong-fossil-scm.html">
+                            04 啟動 Fossil SCM
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./40523103-emp-page-wang-lu-she-ding.html">
-                            40523103 Emp page 網路設定
+                        <a href="./04-ru-he-xiu-gai-stunnelconf-dang-an-gei-ding-qi-dong-dian-nao-ip.html">
+                            04 如何修改 stunnel.conf 檔案/給定啟動電腦 IP
                         </a>
                     </li>
                 </ul>
@@ -380,8 +489,23 @@ WCM6的小組作業Blog            </a>
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./category/shi-zuo-ying-pian.html">
-                            <i class="fa fa-folder-open fa-lg"></i> 實作影片
+                        <a href="./category/jiao-xue-ying-pian.html">
+                            <i class="fa fa-folder-open fa-lg"></i> 教學影片
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./category/jie-yu.html">
+                            <i class="fa fa-folder-open fa-lg"></i> 結語
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./category/lun-shu.html">
+                            <i class="fa fa-folder-open fa-lg"></i> 論述
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./category/ying-pian.html">
+                            <i class="fa fa-folder-open fa-lg"></i> 影片
                         </a>
                     </li>
                 </ul>

@@ -259,7 +259,16 @@ WCM6的小組作業Blog            </a>
                             <a href="../category/cao-zuo-ying-pian.html">操作影片</a>
                         </li>
                         <li >
-                            <a href="../category/shi-zuo-ying-pian.html">實作影片</a>
+                            <a href="../category/jiao-xue-ying-pian.html">教學影片</a>
+                        </li>
+                        <li >
+                            <a href="../category/jie-yu.html">結語</a>
+                        </li>
+                        <li >
+                            <a href="../category/lun-shu.html">論述</a>
+                        </li>
+                        <li >
+                            <a href="../category/ying-pian.html">影片</a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -281,26 +290,175 @@ WCM6的小組作業Blog            </a>
         <div class="col-sm-9">
 
             <article>
-                <h2><a href="../40523104-chan-hui-bi-ji-030.html">40523104 懺悔筆記030</a></h2>
-                <div class="summary"><p>在虛擬機(virtualbox 16.04)啟動stunnel與fossil Scm
-
-                    <a class="btn btn-default btn-xs" href="../40523104-chan-hui-bi-ji-030.html">more ...</a>
+                <h2><a href="../04-jian-wang-lu-xian-shang-wang-zhao-qi-ta-de-zi-liao.html">04 剪網路線:上網找其他的資料~</a></h2>
+                <div class="summary"><p>RJ45網路線接頭
+<br/>
+一定要有的工具：
+<br/>
+6P / 8P 網路線壓線鉗、8P8C網路接頭 、 保護套、斜口鉗、網路線。
+<br/>
+1.去皮。
+<br/>
+2.內線分四對，分別為橘白＋橘，綠白＋綠，藍白＋藍，棕白＋棕四對對絞。
+<br/>
+3.每對對絞線分開由左到右為橘白、橘、綠白、綠、藍白、藍，棕白、棕。
+<br/>
+4.整直後由左到右為橘白、橘、綠白、藍、藍白、綠，棕白、棕。
+<br/>
+5.將綠藍線對調。
+<br/>
+6.將線給插進去網路接頭內，固定彈片向外。
+<br/>
+7.壓線。
+<br/>
+以下節制網路補充:
+<br/>
+UTP 網路線：為八股對絞單芯線 ...</br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></p>
+                    <a class="btn btn-default btn-xs" href="../04-jian-wang-lu-xian-shang-wang-zhao-qi-ta-de-zi-liao.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="../40523104-he-wei-ji-jie-she-ji.html">40523104 何謂機械設計</a></h2>
-                <div class="summary"><p>虛實整合最佳化
-
-                    <a class="btn btn-default btn-xs" href="../40523104-he-wei-ji-jie-she-ji.html">more ...</a>
+                <h2><a href="../04-qi-dong-fossil-scm.html">04 啟動 Fossil SCM</a></h2>
+                <div class="summary"><p>建其他人的:
+<br/>
+--fossil init 4444.fossil
+<br/>
+--fossil sql -R 4444.fossil ("-R"是指定要看後面那一項的內容)
+<br/>
+問資料表--.schema user("user"資料表名稱)</p>
+<p>查對應管理密碼
+<br/>
+select login.pw.cap from user;("select"選擇"login""pw""cap"3個欄位
+<br/>
+*進入後改密碼就不是明碼了  </p>
+                    <a class="btn btn-default btn-xs" href="../04-qi-dong-fossil-scm.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="../40523104-she-wang-lu.html">40523104 設網路</a></h2>
-                <div class="summary"><p>架設網路
-
-                    <a class="btn btn-default btn-xs" href="../40523104-she-wang-lu.html">more ...</a>
+                <h2><a href="../04-ru-he-xiu-gai-stunnelconf-dang-an-gei-ding-qi-dong-dian-nao-ip.html">04 如何修改 stunnel.conf 檔案/給定啟動電腦 IP</a></h2>
+                <div class="summary"><p>y槽-stunnel-config-stunnel.cof(設定檔案)-抓出來Q
+<br/>
+=&gt;查IP:ipconig /all-----&gt;ip:X
+<br/>
+回Q的[https]下的accept改掉IP儲存
+<br/>
+去stunnel啟動configuration-&gt;Reload Configuration
+<br/>
+*倉儲名稱在tmp內
+<br/> </p>
+                    <a class="btn btn-default btn-xs" href="../04-ru-he-xiu-gai-stunnelconf-dang-an-gei-ding-qi-dong-dian-nao-ip.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../04-xiao-zu-wang-zhan.html">04 小組網站</a></h2>
+                <div class="summary"><p>1.config--改帳號和密碼
+<br/>
+2.image files upload--上傳檔案
+<br/>
+3.siteMap--所有階層頁面
+<br/>
+4.edit-選擇要加層標題-Formates-headings--加分支
+<br/>
+5.如要新增影片，要到程式碼貼上。</p>
+                    <a class="btn btn-default btn-xs" href="../04-xiao-zu-wang-zhan.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../04-xu-ni-zhu-ji.html">04 虛擬主機</a></h2>
+                <div class="summary"><p>到VatualBox管理員
+<br/>
+新增-ub(64-bit)-使用下載的虛擬碟
+<br/>
+ub設定-網路=&gt;橋接介面卡-開啟
+<br/>
+=&gt;輸入密碼-進入-sudo apt update-輸入密碼-(sudo rm /var/lib/dpkg/lock-sudo apt~~)-sudo apt install nginx-ifconfig-cd /var/www/html-/sudo vi index. nginx-debin.html
+<br/>
+*fossil clone http://domo@mde2a2.kmol.info/mad2a2 mde2a2.fossil
+<br/>
+("clone"從後免網址clone，"@後一串"綁定的帳號，"mde2a2.fossil"儲存地方
+<br/>
+<br/>
+Stunnel建立Fossil SCM server:
+<br/>
+pud-sudo vi ...</br/></br/></br/></br/></br/></br/></br/></br/></p>
+                    <a class="btn btn-default btn-xs" href="../04-xu-ni-zhu-ji.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../04-xue-xi-mu-biao.html">04 學習目標</a></h2>
+                <div class="summary"><p>使用Ubuntu系統，並在純ipv6狀態下管理網際內容。<br/>
+期中目標：<br/>
+製作網路線分組組裝電腦，安裝設定Ubuntu系統，連接網路並學習使用putty遠端操作電腦。<br/>
+期末目標：<br/>
+於電腦上架設stunnel與CMsimfly。<br/>
+目前小組進度：<br/>
+已完成進度到fossil架設，正在架設CMsimfly至主機內。<br/></p>
+                    <a class="btn btn-default btn-xs" href="../04-xue-xi-mu-biao.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../04-yong-leokai-qi-cmsimfly.html">04 用Leo開啟CMSimfly</a></h2>
+                <div class="summary"><p>cd tmp-cd cmsimfy-python vsgi.py
+<br/>
+*flaskapp.py-tmp-cmsimfly-flaskapp.py
+<br/>
+程式碼沒分小節，太複雜不好更改不意管理。</p>
+                    <a class="btn btn-default btn-xs" href="../04-yong-leokai-qi-cmsimfly.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../04-bi-ji-030.html">04 筆記030</a></h2>
+                <div class="summary"><p>在虛擬機(virtualbox 16.04)啟動stunnel與fossil Scm</p>
+<p>X Term:
+- cd 目前所在目錄
+- pwd 印出所在工作
+- clear 刷新
+- history 查看之前所下的指令
+- history&gt;his.txt 存指令
+- ls -l
+- cat hic.txt 1more (show出但只要一頁)
+- clear
+- sudo apt install stunnel4 -y
+- sudo vi /etc/defanult/stunnel4
+- ls -l
+- sudo mv localhost.* /etc/stunnel/
+- ls -l
+- cd -etc-stunnel
+- sudo ...</p>
+                    <a class="btn btn-default btn-xs" href="../04-bi-ji-030.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../04-he-wei-ji-jie-she-ji.html">04 何謂"機械設計"</a></h2>
+                <div class="summary"><p>*虛實整合最佳化
+機-精巧配置
+械-有一特定功能
+設-表達給人
+計-計算考量</p>
+<p>機械-"硬體""流體".....最佳化---&gt;機械最佳化</p>
+                    <a class="btn btn-default btn-xs" href="../04-he-wei-ji-jie-she-ji.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../04-she-wang-lu.html">04 設網路</a></h2>
+                <div class="summary"><p>1.網路共用中心
+2.乙太網路3
+3.去除TPV4的勾勾
+4.點"使用下列DNS伺服器位址"
+   慣用:2001:288:6004:1::2(::表示省略)
+   其他:2001:b000:1::168
+5.到遊覽器改Proxy
+   Poxy--&gt;LAN設定--&gt;學校IP:[2001:288:6004:17::17]</p>
+                    <a class="btn btn-default btn-xs" href="../04-she-wang-lu.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -315,18 +473,28 @@ WCM6的小組作業Blog            </a>
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="../40523104-chan-hui-bi-ji-030.html">
-                            40523104 懺悔筆記030
+                        <a href="../04-jian-wang-lu-xian-shang-wang-zhao-qi-ta-de-zi-liao.html">
+                            04 剪網路線:上網找其他的資料~
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="../40523104-he-wei-ji-jie-she-ji.html">
-                            40523104 何謂機械設計
+                        <a href="../04-qi-dong-fossil-scm.html">
+                            04 啟動 Fossil SCM
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="../40523104-she-wang-lu.html">
-                            40523104 設網路
+                        <a href="../04-ru-he-xiu-gai-stunnelconf-dang-an-gei-ding-qi-dong-dian-nao-ip.html">
+                            04 如何修改 stunnel.conf 檔案/給定啟動電腦 IP
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../04-xiao-zu-wang-zhan.html">
+                            04 小組網站
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../04-xu-ni-zhu-ji.html">
+                            04 虛擬主機
                         </a>
                     </li>
                 </ul>
@@ -345,8 +513,23 @@ WCM6的小組作業Blog            </a>
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="../category/shi-zuo-ying-pian.html">
-                            <i class="fa fa-folder-open fa-lg"></i> 實作影片
+                        <a href="../category/jiao-xue-ying-pian.html">
+                            <i class="fa fa-folder-open fa-lg"></i> 教學影片
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../category/jie-yu.html">
+                            <i class="fa fa-folder-open fa-lg"></i> 結語
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../category/lun-shu.html">
+                            <i class="fa fa-folder-open fa-lg"></i> 論述
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../category/ying-pian.html">
+                            <i class="fa fa-folder-open fa-lg"></i> 影片
                         </a>
                     </li>
                 </ul>
